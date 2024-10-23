@@ -1,0 +1,71 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
+/*ESTILO DO CABEÇALHO*/
+
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+
+header nav ul{
+    list-style: none;
+    transform: scale(1.01);
+}
+
+header nav ul li{
+    display: inline-block; /*faz a lista ficar uma do lado da outra*/
+    padding: 0px 40px; /*o primeiro pixel é a altura, o segundo px é o distanciamento dos lados*/
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+a p {
+    color:blue
+}
+
+.descricao{
+    color:blueviolet
+}
